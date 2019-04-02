@@ -1,0 +1,10 @@
+<RBT.Animation.LottieBase ux:Class="RBT.Animation.Lottie" ux:Name="self">
+	<Panel ux:Template="GraphicsAppearance" Margin="4" Background="#eee" Padding="30">
+		<Text Value="Preview LottieView on device." Alignment="Center" TextWrapping="Wrap" />
+		<Rectangle Layer="Background">
+			<Stroke Color="#000" />
+		</Rectangle>
+	</Panel>
+	<RBT.Animation.Native.iOS.LottieView ux:Condition="iOS" ux:Template="iOSAppearance" Host="self" />
+	<RBT.Animation.Native.Android.LottieView ux:Condition="Android" ux:Template="AndroidAppearance" Host="self" />
+</RBT.Animation.LottieBase>
