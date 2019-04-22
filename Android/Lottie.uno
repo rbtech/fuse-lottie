@@ -16,7 +16,7 @@ namespace RBT.Animation.Native.Android
 		public LottieView([UXParameter("Host")]RBT.Animation.ILottieEvents host) { }
 	}
 
-	[Require("Gradle.Dependency.Implementation", "com.airbnb.android:lottie:2.5.3")]
+	[Require("Gradle.Dependency.Implementation", "com.airbnb.android:lottie:2.5.4")]
 	extern(Android) class LottieView : Fuse.Controls.Native.Android.LeafView, ILottieView
 	{
 		RBT.Animation.ILottieEvents _host;
