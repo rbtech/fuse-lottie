@@ -10,7 +10,7 @@
     "Projects/Fuse-Lottie/Lottie.unoproj"
   ]
 ```
-3. Install this version of [BodyMovin](https://github.com/rbtech/fuse-lottie-app/blob/master/bodymovin.zxp) for use with Lottie v2.5.3
+3. Install this version of [BodyMovin](https://github.com/rbtech/fuse-lottie-app/raw/master/bodymovin.zxp) for use with Lottie v2.5.3
 
 ## Usage
 1. Copy your .json animations into a folder such as `MyApp/Assets/Animations`
