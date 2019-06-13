@@ -1,5 +1,8 @@
 # Fuse-Lottie
 
+## Requirements
+Fuse 1.10+
+
 ## Install
 
 1. Add this source as a project of your fuse project e.g. `MyApp/Projects/Fuse-Lottie`.
