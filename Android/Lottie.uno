@@ -491,7 +491,7 @@ namespace RBT.Animation.Native.Android
 			 
 
 			//return new android.widget.DatePicker(@(Activity.Package).@(Activity.Name).GetRootActivity());
-			return new com.airbnb.lottie.LottieAnimationView(@(Activity.Package).@(Activity.Name).GetRootActivity());
+			return new com.airbnb.lottie.LottieAnimationView(com.fuse.Activity.getRootActivity());
 		@}
 
 	}
