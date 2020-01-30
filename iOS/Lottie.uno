@@ -16,7 +16,7 @@ namespace RBT.Animation.Native.iOS
 		public LottieView([UXParameter("Host")]RBT.Animation.ILottieEvents host) { }
 	}
 
-	[Require("Cocoapods.Podfile.Target", "pod 'lottie-ios', '~> 2.5.3' ")]
+	[Require("Cocoapods.Podfile.Target", "pod 'lottie-ios'")]
 	[Require("Source.Import", "Lottie/Lottie.h")]
 	extern(iOS) class LottieView : Fuse.Controls.Native.iOS.LeafView, ILottieView
 	{
